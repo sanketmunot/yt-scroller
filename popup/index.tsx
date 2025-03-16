@@ -39,6 +39,9 @@ function IndexPopup() {
           onChange={handleCheckboxChange}
         />
       </div>
+      <div className="description">
+      Scroll through suggested videos while keeping the playing video fixed.
+      </div>
 
       <div className="contact">
         Tired of some other annoying feature on YouTube? <br />

@@ -9,8 +9,10 @@ const applyStyles = () => {
   if (primary && secondary) {
     primary.style.maxHeight = "100vh"
     primary.style.overflow = "scroll"
+    primary.style.scrollbarWidth = "none"
     secondary.style.maxHeight = "100vh"
     secondary.style.overflow = "scroll"
+    secondary.style.scrollbarWidth = "none"
   }
 }
 
