@@ -1,0 +1,33 @@
+{
+  "name": "yt-scroller",
+  "displayName": "Youtube Enhancer",
+  "version": "0.0.1",
+  "description": "Unlock a seamless YouTube experience with our YouTube Enhancer! Easily enable the Section Scroller feature to enhance your browsing. The YouTube Enhancer is an ongoing project, and we're just getting started! We're constantly working to improve and add new features to make your YouTube experience even better. Your feedback is key, and we can't wait to bring you more awesome features in the future!",
+  "author": "sanket munot",
+  "email": "sanketmunot95@gmail.com",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@plasmohq/storage": "^1.15.0",
+    "plasmo": "0.90.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+    "@types/chrome": "0.0.258",
+    "@types/node": "20.11.5",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "prettier": "3.2.4",
+    "typescript": "5.3.3"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://*/*"
+    ]
+  }
+}

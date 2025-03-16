@@ -1,0 +1,76 @@
+/* Container Styles */
+.container {
+    min-width: 250px;
+    min-height: 200px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .header {
+    display: flex;
+    position: relative;
+  }
+  
+  /* Title */
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+    display: inline;
+    margin-bottom: 10px;
+  }
+
+  .beta {
+    position: absolute;
+    right: 0;
+    font-style: italic;
+    bottom: 0;
+  }
+  
+  /* Config Item Styles */
+  .config-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .config-item label {
+    font-size: 1.1em;
+    color: #444;
+  }
+  
+  .config-item input {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+  
+  /* Contact Section */
+  .contact {
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: center;
+    color: #555;
+    position: fixed;
+    bottom: 10;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+
+  
